@@ -34,5 +34,4 @@ public class Exercise5
 
 	        System.out.println("The corresponding letter grade is: " + letterGrade);
 	}
-
 }
