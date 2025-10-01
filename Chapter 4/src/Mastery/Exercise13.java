@@ -32,3 +32,15 @@ public class Exercise13
         System.out.println("-------------------------------------------");
 	}
 }
+
+/* 
+Enter the principal owing: 90000
+Enter the annual interest rate as a percentage (e.g., 6.99 for 6.99%): 4.99
+Enter the number of monthly payments: 48
+-------------------------------------------
+Principal: 90000
+Interest Rate: 4.99
+Number of monthly payments: 48
+The monthly payment is: $2072.23
+-------------------------------------------
+*/

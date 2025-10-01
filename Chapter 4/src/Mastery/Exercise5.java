@@ -35,3 +35,8 @@ public class Exercise5
 	        System.out.println("The corresponding letter grade is: " + letterGrade);
 	}
 }
+
+/* 
+Enter the percentage: 85.5
+The corresponding letter grade is: B
+*/
