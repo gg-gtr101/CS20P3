@@ -44,23 +44,21 @@ public class Necklace
         
     }
     
-    private static int getSingleDigitInput(Scanner input) {
-        while (true) 
-        {
-            if (input.hasNextInt()) 
-            {
-                int num = input.nextInt();
-                if (num >= 0 && num <= 9) 
-                {
+	private static int getSingleDigitInput(Scanner scanner) {
+        while (true) {
+            if (scanner.hasNextInt()) {
+                int num = scanner.nextInt();
+                if (num >= 0 && num <= 9) {
                     return num; 
-                } else 
-                {
+                } else {
                     System.out.print("Invalid input. Please enter a single-digit number (0-9): ");
                 }
-            } else 
-            {
-                String badInput = input.next(); 
-                System.out.print("Invalid input '" + badInput + "'. Please enter an integer (0-9): ");
+            } else {
+                String badInput = scanner.next(); 
+                
+                System.out.println("Invalid input '" + badInput + "'."); 
+                
+                System.out.print("Please enter an integer (0-9): ");
             }
         }
     }
