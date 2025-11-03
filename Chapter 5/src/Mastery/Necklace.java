@@ -1,3 +1,16 @@
+/*
+
+Program: Necklace.java          Last Date of this Revision: November 3, 2015
+
+Purpose:  A Necklace application that prompts the user for two single-digit integers and then displays the sequence and the steps taken.
+
+Author: Gurshan Gaur, 
+School: CHHS
+Course: Computer Programming 20
+ 
+
+*/
+
 package Mastery;
 
 import java.util.Scanner;
