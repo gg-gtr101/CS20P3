@@ -33,7 +33,7 @@ public class Nim
         while (!userLost) 
         {
             
-            // 1. User's Turn: Returns true if the user leaves 0 stones (i.e., loses)
+            // 1. User's Turn: Returns true if the user leaves 0 stones (i.e., the user loses)
             userLost = handleUserTurn(input);
             if (userLost) 
             {
@@ -77,9 +77,9 @@ public class Nim
                 }
             } else 
             {
-                // Consume the invalid non-integer token without assigning to a variable
-                input.next(); 
-                System.out.println("Invalid input. Please enter a whole number.");
+                // Consume the invalid non-integer token without assigning to a variable (
+            	input.next();                
+            	System.out.println("Invalid input. Please enter a whole number.");
             }
         } while (!validInput);
 
@@ -119,3 +119,15 @@ public class Nim
         return rand.nextInt(maxLegalTake) + 1;
 	}
 }
+
+/*
+There are 15 stones. How many would you like? 3
+There are 11 stones. The computer takes 1 stones.
+There are 11 stones. How many would you like? 2
+There are 8 stones. The computer takes 1 stones.
+There are 8 stones. How many would you like? 2
+There are 4 stones. The computer takes 2 stones.
+There are 4 stones. How many would you like? 3
+There are 0 stones. The computer takes 1 stones.
+The player beats the computer!
+*/
