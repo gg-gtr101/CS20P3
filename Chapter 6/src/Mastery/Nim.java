@@ -77,7 +77,7 @@ public class Nim
                 }
             } else 
             {
-                // Consume the invalid non-integer token without assigning to a variable (
+                // Consume the invalid non-integer token without assigning to a variable
             	input.next();                
             	System.out.println("Invalid input. Please enter a whole number.");
             }
