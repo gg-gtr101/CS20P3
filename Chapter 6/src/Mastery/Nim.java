@@ -1,5 +1,5 @@
 /*
-Program: Nim.java          Last Date of this Revision: November 4, 2025
+Program: Nim.java          Last Date of this Revision: November 6, 2025
 
 Purpose: To implement the game of Nim, where two players (User and Computer) alternate taking 1, 2, or 3 stones, and the player forced to take the last stone loses.
 
@@ -16,9 +16,9 @@ import java.util.Scanner;
 public class Nim 
 {
 	private static int stones;
-    private static final int MIN_START_STONES = 15;
-    private static final int MAX_START_STONES = 30;
-    private static final int MAX_TAKE = 3; // Maximum stones allowed to be taken
+    private static int MIN_START_STONES = 15;
+    private static int MAX_START_STONES = 30;
+    private static int MAX_TAKE = 3; // Maximum stones allowed to be taken
 
     public static void main(String[] args) 
     {
