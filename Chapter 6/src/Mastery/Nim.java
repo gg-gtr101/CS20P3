@@ -1,12 +1,12 @@
 /*
-Program: Nim.java          Last Date of this Revision: November 6, 2025
+Program: Nim.java          Last Date of this Revision: November 13, 2025
 
 Purpose: To implement the game of Nim, where two players (User and Computer) alternate taking 1, 2, or 3 stones, and the player forced to take the last stone loses.
 
 Author: Gurshan Gaur, 
 School: CHHS
 Course: Computer Programming 20
- */
+*/
 
 package Mastery;
 
