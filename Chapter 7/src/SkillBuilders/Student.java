@@ -22,4 +22,46 @@ public class Student
 		address = ad;
 		stuID = ID;
 	}
+	
+	//Accessor methods
+	public String getFirstName()
+	{
+		return firstName;
+	}
+	
+	public String getLastName()
+	{
+		return lastName;
+	}
+	
+	public String getAddress()
+	{
+		return address;
+	}
+	
+	public int getStudentID()
+	{
+		return stuID;
+	}
+	
+	//Modifier methods
+	public void setFirstName(String f)
+	{
+		firstName = f;
+	}
+	
+	public void setLastName(String l)
+	{
+		lastName = l;
+	}
+	
+	public void setAddress(String ad)
+	{
+		address = ad;
+	}
+	
+	public void setStudentID(int ID)
+	{
+		stuID = ID;
+	}
 }
