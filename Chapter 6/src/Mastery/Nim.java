@@ -121,6 +121,7 @@ public class Nim
 }
 
 /*
+
 There are 15 stones. How many would you like? 3
 There are 11 stones. The computer takes 1 stones.
 There are 11 stones. How many would you like? 2
@@ -130,4 +131,5 @@ There are 4 stones. The computer takes 2 stones.
 There are 4 stones. How many would you like? 3
 There are 0 stones. The computer takes 1 stones.
 The player beats the computer!
+
  */
