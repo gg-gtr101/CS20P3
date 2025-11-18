@@ -9,7 +9,7 @@ public class CircleAllParts
 		
 		spot.setRadius(3);
 		System.out.println("Circle radius: " + spot.getRadius());
-		System.out.println("Circle circumference: " + spot.circumference());
+		System.out.println("Circle circumference: " + spot.circumfrence());
 
 	}
 

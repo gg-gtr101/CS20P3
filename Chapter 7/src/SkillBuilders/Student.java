@@ -9,10 +9,10 @@ public class Student
 	
 	public Student() // Constructor method
 	{
-		firstName = "";
-		lastName = "";
-		address = "###";
-		stuID = 0000000;
+		firstName = "G";
+		lastName = "G";
+		address = "####";
+		stuID = 0;
 	}
 	
 	public Student(String f, String l, String ad, int ID) // Overload constructor
@@ -64,4 +64,10 @@ public class Student
 	{
 		stuID = ID;
 	}
-}
+	
+	
+	public String toString()
+	{
+		return ("First Name: " + firstName + "\nLast Name: " + lastName + "\nAddress: " + address + "\nStudent ID: " + stuID);
+	}
+} // Closes the Class
