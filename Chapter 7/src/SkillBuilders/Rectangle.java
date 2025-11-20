@@ -11,10 +11,10 @@ public class Rectangle
 		width = 0.0;
 	}
 	
-	public Rectangle(double length, double width)
+	public Rectangle(double l, double w)
 	{
-		length = (length > 0) ? length : 0.0;
-		width = (width > 0) ? width : 0.0;
+		length = (l > 0) ? l : 0.0;
+		width = (w > 0) ? w : 0.0;
 	}
 
 	public double getLength()
@@ -46,5 +46,10 @@ public class Rectangle
 	{
 		return 2 * (length + width);
 	}
-
+	
+	public static void displayAreaFormula()
+	{
+		 System.out.println("The formula for the area of a rectangle is a = l * w");
+	}
+	
 }
