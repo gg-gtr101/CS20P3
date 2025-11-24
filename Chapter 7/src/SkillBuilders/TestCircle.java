@@ -4,7 +4,7 @@ public class TestCircle
 {
 
 	public static void main(String[] args) 
-	{
+	/*	{
 		Circle spot = new Circle(5);
 
 		 System.out.println("Circle radius:" + spot.getRadius());
@@ -13,6 +13,7 @@ public class TestCircle
 	}
 	
 	public static void test()
+	*/
 	{
 		
 		Circle spot1 = new Circle(3);

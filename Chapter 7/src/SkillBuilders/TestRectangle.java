@@ -4,6 +4,7 @@ public class TestRectangle
 {
 
 	public static void main(String[] args) 
+/*
 	{
 		Rectangle rec = new Rectangle();
 		System.out.println("Initial dimensions: " + rec.getLength() + " x " + rec.getWidth());
@@ -22,5 +23,22 @@ public class TestRectangle
        
         
         Rectangle.displayAreaFormula();
+	}
+
+    public static void test()
+    */
+    {
+    		
+    		Rectangle rec1 = new Rectangle(3, 2);
+    		Rectangle rec2 = new Rectangle(3, 2);
+
+    		if (rec1.equals(rec2)) 
+    		{
+    			 System.out.println("Objects are equal.");
+    		} else {
+    			System.out.println("Objects are not equal.");
+    		}
+    		System.out.println(rec1);
+    		System.out.println(rec2);
 	}
 }
