@@ -8,21 +8,21 @@ public class Squares
 		int arraySize = 5;
 		int[] squaresArray = new int[arraySize];
 		
-		System.out.println("Calculation Phase");
+		System.out.println("Calculation Phase:");
 		for (int i = 0; i < arraySize; i++)
 		{
 			int squaredValue = i * i;
 			
 			squaresArray[i] = squaredValue;
 			
-			System.out.println("Index " + i + "squared is: " + squaredValue + " -> Stored in array.");
+			System.out.println("Index " + i + " squared is: " + squaredValue + " -> Stored in array.");
 		}
 		
-		System.out.println("Final Array Values");
+		System.out.println("\nFinal Array Values:");
 		
-		for(int i = 0; i < squaresArray.length; i++);
+		for (int i = 0; i < squaresArray.length; i++) 
 		{
-			System.out.println("Element at Index " + i + ": " + squaresArray[i]);
+		    System.out.println("Element at Index " + i + ": " + squaresArray[i]);
 		}
 		
 
